@@ -62,7 +62,7 @@ function getFilesByFolder(string $root): array
 
 // Point this to the folder you want to read from.
 // Because this file lives in /pages, we need to go up one level to reach the project root.
-$baseFolder = 'C:/Users/marag/OneDrive/Documenten/char codes/';
+$baseFolder = ' codes/';
 $folderError = '';
 
 if (!is_dir($baseFolder)) {
